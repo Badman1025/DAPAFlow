@@ -25,7 +25,7 @@ optional arguments:
                         Number of motifs to search for in MEME. Default: 10
 ```
 # test
-- **`-i`** [Testdata](https://github.com/Badman1025/APAFlow/tree/main/test).  
+- **`-i`** [aUTR](https://github.com/Badman1025/deAPAFlow/blob/main/aUTRWithdPAS_pPAS.csv).  
 - **`-t`** TarBase_3UTR.tsv(output of APAFlow) 
 
 ```
