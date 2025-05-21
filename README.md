@@ -1,6 +1,7 @@
 # deAPAFlow
 deAPAFlow is a pipeline designed for analyzing conserved sequences in differential 3' UTR APA events (cUTR/aUTR) and constructing regulatory networks involving miRNAs and their targets.
-![image](https://github.com/user-attachments/assets/42f87672-e6de-4026-bb35-7f9b771c9896)
+
+![image](https://github.com/user-attachments/assets/7f35c6d1-22a9-4e49-8f21-7d198f26e526)
 
 ```
 python deAPAFlow.py -h
