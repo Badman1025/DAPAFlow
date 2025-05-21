@@ -30,7 +30,8 @@ optional arguments:
 python deAPAFlow.py -i aUTRWithdPAS_pPAS.csv -g Homo_sapiens.GRCh38.dna.primary_assembly.fa -t TarBase_3UTR.tsv -m ./miRNA_meme/Homo_sapiens_hsa.meme -n 3 -o test
 ```
 ## Result
-![image](https://github.com/user-attachments/assets/79bf710d-2395-46a2-a0eb-bde61107f205)
+![image](https://github.com/user-attachments/assets/0606af2f-4166-4bdc-97c2-eeba68224769)
+
 ## Citation
 1. article
 2. Timothy L. Bailey and Charles Elkan, "Fitting a mixture model by expectation maximization to discover motifs in biopolymers", Proceedings of the Second International Conference on Intelligent Systems for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
