@@ -24,7 +24,7 @@ optional arguments:
 ```
 # test
 - **`-i`** [Testdata](https://github.com/Badman1025/APAFlow/tree/main/test).  
-- **`-t`** TarBase_3UTR.tsv(human)   
+- **`-t`** TarBase_3UTR.tsv(output of APAFlow) 
 
 ```
 python deAPAFlow.py -i aUTRWithdPAS_pPAS.csv -g Homo_sapiens.GRCh38.dna.primary_assembly.fa -t TarBase_3UTR.tsv -m ./miRNA_meme/Homo_sapiens_hsa.meme -n 3 -o test
