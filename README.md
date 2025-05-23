@@ -34,6 +34,8 @@ python deAPAFlow.py -i aUTRWithdPAS_pPAS.csv -g Homo_sapiens.GRCh38.dna.primary_
 ## Result
 ![image](https://github.com/user-attachments/assets/0606af2f-4166-4bdc-97c2-eeba68224769)
 
+## Expansion
+The alternative splicing event location information can be used as input. The "TarBase_3UTR.tsv" file needs to be replaced with "TarBase_CDS.tsv", which is extracted using the "exact_CDS.py" script.
 ## Citation
 1. article
 2. Timothy L. Bailey and Charles Elkan, "Fitting a mixture model by expectation maximization to discover motifs in biopolymers", Proceedings of the Second International Conference on Intelligent Systems for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
