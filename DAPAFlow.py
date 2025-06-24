@@ -82,7 +82,7 @@ def extract_gene_names(input_csv_file, gene_file):
         outfile.write("\n".join(gene_names))
 
 def main():
-    parser = argparse.ArgumentParser(description="deAPAFlow: A pipeline for analyzing differential 3'UTR APA related data (eg.cUTR/aUTR).")
+    parser = argparse.ArgumentParser(description="DAPAFlow: A pipeline for analyzing differential 3'UTR APA related data (eg.cUTR/aUTR).")
     parser.add_argument("-i", "--input_csv", required=True, help="Input CSV file containing APA information.")
     parser.add_argument("-g", "--genome_fasta", required=True, help="Genome FASTA file.")
     parser.add_argument("-t", "--tarbase_file", required=True, help="TarBase file.")
