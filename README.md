@@ -25,7 +25,7 @@ optional arguments:
                         Number of motifs to search for in MEME. Default: 10
 ```
 # test
-- **`-i`** [aUTR](https://github.com/Badman1025/deAPAFlow/blob/main/aUTRWithdPAS_pPAS.csv).  
+- **`-i`** [aUTR](https://github.com/Badman1025/DAPAFlow/blob/main/aUTRWithdPAS_pPAS.csv).  
 - **`-t`** TarBase_3UTR.tsv(output of APAFlow) 
 
 ```
@@ -35,7 +35,7 @@ python DAPAFlow.py -i aUTRWithdPAS_pPAS.csv -g Homo_sapiens.GRCh38.dna.primary_a
 ![image](https://github.com/user-attachments/assets/0606af2f-4166-4bdc-97c2-eeba68224769)
 
 ## Expansion
-The alternative splicing event location information can be used as input. The "TarBase_3UTR.tsv" file needs to be replaced with "TarBase_CDS.tsv", which is extracted using the "[exact_CDS.py](https://github.com/Badman1025/deAPAFlow/blob/main/exact_CDS.py)" script.
+The alternative splicing event location information can be used as input. The "TarBase_3UTR.tsv" file needs to be replaced with "TarBase_CDS.tsv", which is extracted using the "[exact_CDS.py](https://github.com/Badman1025/DAPAFlow/blob/main/exact_CDS.py)" script.
 ## Citation
 1. article
 2. Timothy L. Bailey and Charles Elkan, "Fitting a mixture model by expectation maximization to discover motifs in biopolymers", Proceedings of the Second International Conference on Intelligent Systems for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
