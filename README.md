@@ -1,13 +1,13 @@
-# deAPAFlow
-deAPAFlow is a pipeline designed for analyzing conserved sequences in differential 3' UTR APA events (cUTR/aUTR) and constructing regulatory networks involving miRNAs and their targets.
+# DAPAFlow
+DAPAFlow (Differential APA Flow) is a pipeline designed for analyzing conserved sequences in differential 3' UTR APA events (cUTR/aUTR) and constructing regulatory networks involving miRNAs and their targets.
 
 ![image](https://github.com/user-attachments/assets/7f35c6d1-22a9-4e49-8f21-7d198f26e526)
 
 ```
-python deAPAFlow.py -h
-usage: deAPAFlow.py [-h] -i INPUT_CSV -g GENOME_FASTA -t TARBASE_FILE -m MEME_MOTIF_DB [-o OUTPUT_DIR] [-n NMOTIFS]
+python DAPAFlow.py -h
+usage: DAPAFlow.py [-h] -i INPUT_CSV -g GENOME_FASTA -t TARBASE_FILE -m MEME_MOTIF_DB [-o OUTPUT_DIR] [-n NMOTIFS]
 
-deAPAFlow: A pipeline for analyzing differential 3'UTR APA related data (eg.cUTR/aUTR).
+DAPAFlow: A pipeline for analyzing differential 3'UTR APA related data (eg.cUTR/aUTR).
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -29,7 +29,7 @@ optional arguments:
 - **`-t`** TarBase_3UTR.tsv(output of APAFlow) 
 
 ```
-python deAPAFlow.py -i aUTRWithdPAS_pPAS.csv -g Homo_sapiens.GRCh38.dna.primary_assembly.fa -t TarBase_3UTR.tsv -m ./miRNA_meme/Homo_sapiens_hsa.meme -n 3 -o test
+python DAPAFlow.py -i aUTRWithdPAS_pPAS.csv -g Homo_sapiens.GRCh38.dna.primary_assembly.fa -t TarBase_3UTR.tsv -m ./miRNA_meme/Homo_sapiens_hsa.meme -n 3 -o test
 ```
 ## Result
 ![image](https://github.com/user-attachments/assets/0606af2f-4166-4bdc-97c2-eeba68224769)
