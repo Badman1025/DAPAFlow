@@ -1,5 +1,5 @@
 # DAPAFlow
-DAPAFlow (Differential APA Flow) is a pipeline designed for analyzing conserved sequences in differential 3' UTR APA events (cUTR/aUTR) and constructing regulatory networks involving miRNAs and their targets.
+DAPAFlow (Differential APA Flow) is a pipeline designed for analyzing conserved sequences in differential 3' UTR APA events (cUTR/aUTR) and constructing regulatory networks between miRNAs and their targets.
 
 ![image](https://github.com/user-attachments/assets/7f35c6d1-22a9-4e49-8f21-7d198f26e526)
 
