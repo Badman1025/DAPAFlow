@@ -1,5 +1,5 @@
 # DAPAFlow
-DAPAFlow (Differential APA Flow) is a pipeline designed for analyzing conserved sequences in differential 3' UTR APA events (cUTR/aUTR) and constructing regulatory networks between miRNAs and their targets.
+DAPAFlow (Differential APA Flow) is a pipeline designed for analyzing conserved sequences in differential 3' UTR APA events (cUTR/aUTR) and constructing regulatory networks between miRNAs and their targets. Online analysis: https://apa-early-embryo-development.imustbioinfo.cn/
 
 ![image](https://github.com/user-attachments/assets/7f35c6d1-22a9-4e49-8f21-7d198f26e526)
 
@@ -37,5 +37,5 @@ python DAPAFlow.py -i aUTRWithdPAS_pPAS.csv -g Homo_sapiens.GRCh38.dna.primary_a
 ## Expansion
 The alternative splicing event location information can be used as input. The "TarBase_3UTR.tsv" file needs to be replaced with "TarBase_CDS.tsv", which is extracted using the "[exact_CDS.py](https://github.com/Badman1025/DAPAFlow/blob/main/exact_CDS.py)" script.
 ## Citation
-1. article
-2. Timothy L. Bailey and Charles Elkan, "Fitting a mixture model by expectation maximization to discover motifs in biopolymers", Proceedings of the Second International Conference on Intelligent Systems for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
+1. Integrative short-read and long-read RNA sequencing reveals the regulation of preeclampsia by alternative 3' UTRs
+2. Zhang, Y., Li, A., Wu, J. et al (2026) The dynamic landscape of alternative 3′ UTR during mammalian preimplantation development Developmental Biology 534: 101-114. https://doi.org/10.1016/j.ydbio.2026.03.014.
