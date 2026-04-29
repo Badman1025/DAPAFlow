@@ -37,5 +37,8 @@ python DAPAFlow.py -i aUTRWithdPAS_pPAS.csv -g Homo_sapiens.GRCh38.dna.primary_a
 ## Expansion
 The alternative splicing event location information can be used as input. The "TarBase_3UTR.tsv" file needs to be replaced with "TarBase_CDS.tsv", which is extracted using the "[exact_CDS.py](https://github.com/Badman1025/DAPAFlow/blob/main/exact_CDS.py)" script.
 ## Citation
-1. Integrative short-read and long-read RNA sequencing reveals the regulation of preeclampsia by alternative 3' UTRs
-2. Zhang, Y., Li, A., Wu, J. et al (2026) The dynamic landscape of alternative 3′ UTR during mammalian preimplantation development Developmental Biology 534: 101-114. https://doi.org/10.1016/j.ydbio.2026.03.014.
+[1] Zhang, Y., Li, A., Guo, Y. et al (2026) Integrative short-read and long-read RNA sequencing reveals the regulation of preeclampsia by alternative 3′ UTRs Placenta 181: 14-25. 
+https://doi.org/10.1016/j.placenta.2026.04.017.
+
+[2] Zhang, Y., Li, A., Wu, J. et al (2026) The dynamic landscape of alternative 3′ UTR during mammalian preimplantation development Developmental Biology 534: 101-114.
+https://doi.org/10.1016/j.ydbio.2026.03.014.
